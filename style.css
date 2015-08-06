@@ -1,0 +1,36 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.vertical-align {
+  width: 320px; 
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+button {
+  top: 5px;
+  left: 5px;
+  position:fixed;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 48px;
+}
+label {
+  white-space:nowrap;
+  padding: 5px;
+}
+div.weatherDiv {
+
+}
+
+div.weatherDiv div {
+  display: inline-block; 
+  line-height:38px;
+  vertical-align: middle;
+  height:50px;
+}

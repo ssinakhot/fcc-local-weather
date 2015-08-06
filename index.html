@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Simple Weather Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'> 
+    <script src="localweather.js"></script>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="main" class="container text-center vertical-align">
+      <h1 class="center-block">Weather App</h1>
+      <br/>
+      <div>
+        <label id="loc" class="bg-success img-rounded"></label>
+      </div>
+      <br/>
+      <div id="weather" class="weatherDiv">
+        <div id="icon" class="bg-info img-rounded">
+          <img src="" alt="">
+        </div>
+        <div id="temp" class="bg-info img-rounded"></div>
+        <div id="desc" class="bg-info img-rounded"></div>
+        <div id="wind" class="bg-info img-rounded"></div>
+      </div>
+    </div>
+    <button class="btn btn-primary">Switch to <span></span></button>
+  </body>
+</html>
