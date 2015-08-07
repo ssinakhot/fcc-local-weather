@@ -4,11 +4,13 @@ body {
 }
 
 .vertical-align {
-  width: 320px; 
+  width: 500px;
+  height: 200px;
   position: absolute;
+  left: 50%;
   top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  margin-left: -250px;
+  margin-top: -100px;
 }
 button {
   top: 5px;
